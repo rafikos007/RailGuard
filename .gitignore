@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+backend/venv/
+
+# Environment and secrets
+.env
+*.env
+!.env.example
+backend/.env
+!backend/.env.example
+
+# Local databases and database-tool projects
+*.db
+*.sqlite
+*.sqlite3
+*.sqbpro
+
+# Node / Vite
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Generated runtime files
+backend/images/
+detection_interface_app/static/temp/
+detection_interface_app/static/results/
+scratch/
+
+# Large datasets and ML model artifacts
+Dataset.zip
+Models/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
